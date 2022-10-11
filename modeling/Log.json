@@ -3,6 +3,7 @@
     "fields": {
         "id": "int",
         "action": "string",
+        "causer_id": "int",
         "origin_id": "int",
         "origin_type": "string",
         "before": {},

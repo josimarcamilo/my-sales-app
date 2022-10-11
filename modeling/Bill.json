@@ -1,9 +1,9 @@
 {
-    "table": "historics",
+    "table": "bill",
     "fields": {
         "id": "uniq",
         "description": "string",
-        "customer": "int",
+        "customer_id": "int",
         "origin_id": "int",
         "origin_type": "string"
     }

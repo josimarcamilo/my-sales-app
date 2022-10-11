@@ -1,15 +1,14 @@
 {
     "table": "products",
     "fields": {
-        "id": "uniq",
-        "code": "uniq",
-        "bar_code": "uniq",
-        "ref": "uniq",
+        "id": "uniq|int",
+        "code": "uniq|string",
+        "bar_code": "uniq|int",
         "type": "int",
         "name": "string",
         "cust": "int",
         "price": "int",
-        "company": "int",
+        "company_id": "int",
         "inventory": "int"
     }
 }

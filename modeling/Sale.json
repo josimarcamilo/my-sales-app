@@ -14,9 +14,9 @@
         ],
         "total": "int",
         "discount": "int",
-        "customer": "int",
-        "user": "int",
-        "company": "int",
+        "customer_id": "int",
+        "user_id": "int",
+        "company_id": "int",
         "payments": []
     }
 }
