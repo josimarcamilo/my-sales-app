@@ -8,8 +8,8 @@ import (
 
 func main() {
 	models.Companys = []models.Company{
-		{Description: "Josimar SA"},
-		{Description: "Josimar Camilo SA"},
+		{Id: 1, Description: "Josimar SA"},
+		{Id: 2, Description: "Josimar Camilo SA"},
 	}
 
 	fmt.Println("api rodando")
