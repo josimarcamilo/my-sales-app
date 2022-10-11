@@ -1,0 +1,7 @@
+{
+    "table": "companys",
+    "fields": {
+        "id": "uniq",
+        "description": "string"
+    }
+}

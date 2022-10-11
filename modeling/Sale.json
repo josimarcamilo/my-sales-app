@@ -1,0 +1,22 @@
+{
+    "table": "sales",
+    "fields": {
+        "id": "uniq",
+        "uuid": "string",
+        "status": "int",
+        "products": [
+            {
+                "id": "string",
+                "name": "string",
+                "cust": "int",
+                "price": "int"
+            }
+        ],
+        "total": "int",
+        "discount": "int",
+        "customer": "int",
+        "user": "int",
+        "company": "int",
+        "payments": []
+    }
+}

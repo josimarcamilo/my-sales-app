@@ -1,0 +1,10 @@
+{
+    "table": "customers",
+    "fields": {
+        "id": "uniq",
+        "name": "string",
+        "phone": "string",
+        "city": "string",
+        "district": "string"
+    }
+}

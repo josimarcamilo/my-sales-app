@@ -1,0 +1,19 @@
+{
+    "table": "payments",
+    "fields": {
+        "id": "uniq",
+        "value": "string",
+        "status": "int",
+        "method": "int", 
+        "payer":
+            {
+                "id": "string",
+                "name": "string",
+                "document": "string"
+            }
+        ,
+        "info": {},
+        "sale": "int",
+        "error": {}
+    }
+}

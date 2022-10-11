@@ -1,0 +1,10 @@
+{
+    "table": "historics",
+    "fields": {
+        "id": "uniq",
+        "description": "string",
+        "customer": "int",
+        "origin_id": "int",
+        "origin_type": "string"
+    }
+}

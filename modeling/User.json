@@ -1,0 +1,12 @@
+{
+    "table": "users",
+    "fields": {
+        "id": "uniq",
+        "email": "uniq",
+        "password": "uniq",
+        "name": "string",
+        "cust": "int",
+        "price": "int",
+        "company": "int"
+    }
+}
