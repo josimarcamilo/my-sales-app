@@ -12,6 +12,8 @@ services:
       MYSQL_PASSWORD: db_app
     volumes:
       - "./migrations/create-company.sql:/docker-entrypoint-initdb.d/1.sql"
+    ports:
+      - 8002:3306
     networks:
       - api_net
 
